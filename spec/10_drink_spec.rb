@@ -120,7 +120,7 @@ describe Drink do
       # beverage type. In addition, specify ounces to be any number under 16.
       subject(:tea) { described_class.new('tea', 8) }
       # remove the 'x' before running this test 
-      it 'is not full' do
+      xit 'is not full' do
         expect(tea).not_to be_full
       end
     end
